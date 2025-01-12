@@ -1,7 +1,7 @@
 services:
   db:
     restart: unless-stopped
-    image: postgres:13-alpine
+    image: postgres:17-alpine
     environment:
       - POSTGRES_DB=upstat
       - POSTGRES_PASSWORD=postgres
